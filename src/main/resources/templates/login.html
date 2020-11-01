@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/login.css">
+<body>
+<div id="app">
+    <div class="showDetail">
+        <div><input type="text" value="" placeholder=" your account"></div>
+        <div><input type="password" value="" placeholder=" your password"></div>
+        <div>
+            <button type="button">sign in </button>
+            <span style="margin-left: 20px;">Don't have an account yet？</span>
+            <button id="toReg" type="button">to sign up</button>
+        </div>
+    </div>
+    <div class="registry">
+        <div><span style="margin-left: 110px;">你是不是想要注册呀？</span></div>
+        <div><input type="text" value="" placeholder="your account"></div>
+        <div><input type="password" value="" placeholder="your password"></div>
+        <div><input type="password" value="" placeholder="repeat password"></div>
+        <div><input type="text" value="" placeholder="your neckName"></div>
+        <div><input type="text" value="" placeholder="your phone number"></div>
+        <div>
+            <select>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+        </div>
+        <div>
+            <button type="button">sign up</button>
+            <span style="margin-left: 20px;">Already have an account？</span>
+            <button id="toLogin" type="button">to Login</button>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/vue.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/login.js"></script>
+</html>

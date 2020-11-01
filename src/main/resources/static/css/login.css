@@ -1,0 +1,58 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/bg1.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%, 100%;
+}
+input, button, a, select{
+    outline:0 none !important; blr:expression(this.onFocus=this.blur());
+    background-color: transparent;
+}
+span, button, input, select{
+    color: lightcyan;
+}
+input {
+    width: 380px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 10px;
+    border: 2px solid white;
+}
+#app{
+    position: relative;
+    top: 35%;
+}
+.showDetail,.registry{
+    padding-left: 40%;
+}
+.showDetail div:last-child,.registry div:last-child{
+    margin-top: 10px;
+}
+::-webkit-input-placeholder {
+    color: lightgrey;
+}
+select{
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 2%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+select option{
+    background-color: #82caff;
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+button:active {
+    border: 2px solid cadetblue;
+}
+.registry{
+    display: none;
+}

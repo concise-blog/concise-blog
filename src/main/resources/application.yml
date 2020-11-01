@@ -1,5 +1,15 @@
 spring:
   profiles: dev
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/static/,classpath:/public/,classpath:/template/
 
 server:
   port: 8080
+  servlet:
+    context-path: /blog
+
