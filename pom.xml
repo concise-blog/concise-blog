@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>team.towgrandf</groupId>
-    <artifactId>conciseblog</artifactId>
+    <artifactId>concise-blog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>conciseblog</name>
+    <name>concise-blog</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
